@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    transition: all 1s ease;
+}
+.main-warper{
+    display: flex;
+    height: 100vh;
+    background-color: aliceblue;
+}
+.sidebar{
+    width: 200px;
+    height: 100vh;
+    background-color:white;
+    white-space:nowrap;
+}
+.sidebar-header h2 span{
+    background-color: red;
+    border-radius: 5px;
+}
+.sidebar-header h2{
+   margin:20px 10px ;
+}
+.logo{
+    position: relative;
+}
+.logo i img{
+    position: absolute;
+    width: 22px;
+    height: 25px;
+    right: -10px;
+    background-color: red;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search{
+    display: flex;
+    margin: 20px 10px;
+    text-align: center;
+}
+.search i img{
+    width:25px;
+    height:25px;
+    border-radius:5px;
+    background-color: red;
+}
+.search i{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.search input{
+    width: 140px;
+    height:25px;
+    border: none;
+    outline: none;
+    color: rgb(6, 6, 6);
+    background-color: rgb(211, 208, 208);
+    border-radius: 5px;
+}
+.sidebar-body ul li img{
+    height: 18px;
+    width: 20px;
+    margin-left: 20px;
+    margin-top:8px;
+}
+.sidebar-body ul li{
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    margin-top:6px;
+}
+.sidebar-body ul li .span-text{
+    font-size:12px;
+    margin-left:12px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.sidebar-body ul li:hover{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+.sidebar-footer{
+    margin-top: 15px;
+}
+.sidebar-footer ul li{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.sidebar-footer ul li img{
+    width: 20px;
+    height:20px ;
+    margin-left: 20px;
+    margin-top: 12px;
+}
+.sidebar-footer ul li .span-text{
+    font-size: 12px;
+    margin-left: 8px;
+    margin-top: 14px;
+    cursor: pointer;
+}
+.sidebar-footer ul li:hover{
+    background-color: red;
+    border-radius: 10px;
+    color: white;
+}
+.hide{
+    /* width:60px; */
+    margin-left: -196px;
+}
+.t{
+    display: none;
+}
